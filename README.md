@@ -39,7 +39,7 @@ A JavaScript-based tool for drawing molecular structures. Developed for NMR-Chal
 - `molEdit.load(json)`: Accepts a JSON string `json` and renders the molecule.
 - `molEdit.getFormula()`: Returns an object representing the molecular formula.
 - `molEdit.changeTheme('light'|'dark')`: Toggles the editor's theme between light and dark modes.
-- `molEdit.initUI()`: Initializes the sketches.
+- `molEdit.initUI()`: Initializes the sketcher.
 
 ## Event
 An `input` event is fired whenever the molecule is edited. This event can be listened for and handled by adding an event listener to the molEdit element:
